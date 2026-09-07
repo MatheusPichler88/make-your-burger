@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
+    <meta charset="utf-8"> <!-- Define a codificação de caracteres para aceitar acentos e ç -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante compatibilidade com navegadores mais antigos (Internet Explorer/Edge) -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- Ajusta a tela automaticamente para funcionar em celulares e tablets (responsivo) -->
+    
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico"> <!-- Ícone que aparece na aba do navegador (imagem do hambúrguer) -->
+    
+  <title>Make Your Burger | Monte seu Lanche</title> <!-- Título do site na aba (marca + chamada principal) -->  </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!-- Mensagem exibida caso o navegador do usuário esteja com o JavaScript desativado -->
+  <noscript>
+  <strong>Ops! Este site precisa do JavaScript ativado para funcionar. Por favor, ative-o no seu navegador para continuar.</strong>
+  </noscript> <!-- Mensagem exibida caso o navegador do usuário esteja com o JavaScript desativado -->
+    
+    <div id="app"></div> <!-- Ponto de montagem da aplicação: o Vue injeta todo o projeto (App.vue) aqui dentro -->
   </body>
 </html>
