@@ -1,0 +1,44 @@
+{
+  "ingredientes": {
+    "paes": [
+      { "id": 1, "tipo": "Brioche Selado na Manteiga" },
+      { "id": 2, "tipo": "Australiano" },
+      { "id": 3, "tipo": "Pão de Batata" },
+      { "id": 4, "tipo": "Pão de Alho com Ervas" },
+      { "id": 5, "tipo": "Pão com Gergelim Tradicional" },
+      { "id": 6, "tipo": "Pão Sem Glúten" }
+    ],
+    "carnes": [
+      { "id": 1, "tipo": "Blend da Casa 180g (Fraldinha + Acém)" },
+      { "id": 2, "tipo": "Smash Duplo 2x 90g" },
+      { "id": 3, "tipo": "Costela Black Angus 200g" },
+      { "id": 4, "tipo": "Frango Crispy Empanado" },
+      { "id": 5, "tipo": "Blend Vegano (Cogumelos + Grão-de-Bico)" },
+      { "id": 6, "tipo": "Picanha 180g" }
+    ],
+    "opcionais": [
+      { "id": 1, "tipo": "Cheddar Fatiado Melt" },
+      { "id": 2, "tipo": "Queijo Prato Artesanal" },
+      { "id": 3, "tipo": "Gorgonzola Cremoso" },
+      { "id": 4, "tipo": "Bacon Crocante em Fatias" },
+      { "id": 5, "tipo": "Cebola Caramelizada" },
+      { "id": 6, "tipo": "Cebola Crispy" },
+      { "id": 7, "tipo": "Pickles Artesanais da Casa" },
+      { "id": 8, "tipo": "Maionese Verde Temperada" },
+      { "id": 9, "tipo": "Molho Especial Smash" },
+      { "id": 10, "tipo": "Geleia de Pimenta Defumada" },
+      { "id": 11, "tipo": "Alface Americana" },
+      { "id": 12, "tipo": "Tomate Italiano" },
+      { "id": 13, "tipo": "Cogumelos Shimeji na Manteiga" },
+      { "id": 14, "tipo": "Ovo Frito de Gema Mole" }
+    ]
+  },
+  "status": [
+    { "id": 1, "tipo": "Solicitado" },
+    { "id": 2, "tipo": "Em produção" },
+    { "id": 3, "tipo": "Saiu para Entrega" },
+    { "id": 4, "tipo": "Finalizado" },
+    { "id": 5, "tipo": "Cancelado" }
+  ],
+  "burgers": []
+}
