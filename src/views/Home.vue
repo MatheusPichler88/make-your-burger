@@ -4,7 +4,6 @@
   <div class="main-container">
     <h1>Monte o seu burger:</h1>
     <BurgerForm />
-  <p>formulario</p>
   </div>
 </template>
 

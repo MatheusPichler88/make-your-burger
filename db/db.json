@@ -165,6 +165,31 @@
       ],
       "status": "Solicitado",
       "id": "qBRNbUk9AhQ"
+    },
+    {
+      "nome": "Evaldo",
+      "carne": "Costela Angus",
+      "pao": "Pão de Alho",
+      "opcionais": [
+        "Pickles",
+        "Alface",
+        "Tomate",
+        "Geleia de Pimenta"
+      ],
+      "status": "Solicitado",
+      "id": "xw3nWs2geTc"
+    },
+    {
+      "nome": "Catarina",
+      "carne": "Blend da Casa",
+      "pao": "Brioche",
+      "opcionais": [
+        "Cheddar",
+        "Molho Smash",
+        "Ovo Frito"
+      ],
+      "status": "Solicitado",
+      "id": "XFqf7lc4zCU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
