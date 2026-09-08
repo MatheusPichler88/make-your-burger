@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router' // biblioteca de rotas do vue
-import HomeView from '../views/HomeView.vue' // importa a pagina inicial do projeto
+import HomeView from '../views/Home.vue' // importa a pagina inicial do projeto
 
 const routes = [  //Lista de rotas do projeto
   {
