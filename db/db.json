@@ -1,44 +1,151 @@
 {
   "ingredientes": {
     "paes": [
-      { "id": 1, "tipo": "Brioche" },
-      { "id": 2, "tipo": "Australiano" },
-      { "id": 3, "tipo": "Pão de Batata" },
-      { "id": 4, "tipo": "Pão de Alho" },
-      { "id": 5, "tipo": "Gergelim" },
-      { "id": 6, "tipo": "Sem Glúten" }
+      {
+        "id": 1,
+        "tipo": "Brioche"
+      },
+      {
+        "id": 2,
+        "tipo": "Australiano"
+      },
+      {
+        "id": 3,
+        "tipo": "Pão de Batata"
+      },
+      {
+        "id": 4,
+        "tipo": "Pão de Alho"
+      },
+      {
+        "id": 5,
+        "tipo": "Gergelim"
+      },
+      {
+        "id": 6,
+        "tipo": "Sem Glúten"
+      }
     ],
     "carnes": [
-      { "id": 1, "tipo": "Blend da Casa" },
-      { "id": 2, "tipo": "Smash Duplo" },
-      { "id": 3, "tipo": "Costela Angus" },
-      { "id": 4, "tipo": "Frango Crispy" },
-      { "id": 5, "tipo": "Hambúrguer Vegano" },
-      { "id": 6, "tipo": "Picanha" }
+      {
+        "id": 1,
+        "tipo": "Blend da Casa"
+      },
+      {
+        "id": 2,
+        "tipo": "Smash Duplo"
+      },
+      {
+        "id": 3,
+        "tipo": "Costela Angus"
+      },
+      {
+        "id": 4,
+        "tipo": "Frango Crispy"
+      },
+      {
+        "id": 5,
+        "tipo": "Hambúrguer Vegano"
+      },
+      {
+        "id": 6,
+        "tipo": "Picanha"
+      }
     ],
     "opcionais": [
-      { "id": 1, "tipo": "Cheddar" },
-      { "id": 2, "tipo": "Queijo Prato" },
-      { "id": 3, "tipo": "Gorgonzola" },
-      { "id": 4, "tipo": "Bacon" },
-      { "id": 5, "tipo": "Cebola Caramelizada" },
-      { "id": 6, "tipo": "Cebola Crispy" },
-      { "id": 7, "tipo": "Pickles" },
-      { "id": 8, "tipo": "Maionese Verde" },
-      { "id": 9, "tipo": "Molho Smash" },
-      { "id": 10, "tipo": "Geleia de Pimenta" },
-      { "id": 11, "tipo": "Alface" },
-      { "id": 12, "tipo": "Tomate" },
-      { "id": 13, "tipo": "Shimeji" },
-      { "id": 14, "tipo": "Ovo Frito" }
+      {
+        "id": 1,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 2,
+        "tipo": "Queijo Prato"
+      },
+      {
+        "id": 3,
+        "tipo": "Gorgonzola"
+      },
+      {
+        "id": 4,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola Caramelizada"
+      },
+      {
+        "id": 6,
+        "tipo": "Cebola Crispy"
+      },
+      {
+        "id": 7,
+        "tipo": "Pickles"
+      },
+      {
+        "id": 8,
+        "tipo": "Maionese Verde"
+      },
+      {
+        "id": 9,
+        "tipo": "Molho Smash"
+      },
+      {
+        "id": 10,
+        "tipo": "Geleia de Pimenta"
+      },
+      {
+        "id": 11,
+        "tipo": "Alface"
+      },
+      {
+        "id": 12,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 13,
+        "tipo": "Shimeji"
+      },
+      {
+        "id": 14,
+        "tipo": "Ovo Frito"
+      }
     ]
   },
   "status": [
-    { "id": 1, "tipo": "Solicitado" },
-    { "id": 2, "tipo": "Em produção" },
-    { "id": 3, "tipo": "Saiu para Entrega" },
-    { "id": 4, "tipo": "Finalizado" },
-    { "id": 5, "tipo": "Cancelado" }
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Saiu para Entrega"
+    },
+    {
+      "id": "4",
+      "tipo": "Finalizado"
+    },
+    {
+      "id": "5",
+      "tipo": "Cancelado"
+    }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "Matheus",
+      "carne": "Blend da Casa",
+      "pao": "Brioche",
+      "opcionais": [
+        "Cheddar",
+        "Molho Smash",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": "XsbFRmd8HG4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

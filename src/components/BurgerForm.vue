@@ -2,8 +2,8 @@
   <div>
     <p>Componente de msg</p>
     <div>
-      <!-- Formulário que abraça todos os campos e o envio -->
-      <form id="burger-form">
+      <!-- Formulário com evento submit vinculado ao método createBurger -->
+      <form id="burger-form" @submit="createBurger">
         
         <!-- Campo: Nome do cliente -->
         <div class="input-container">
@@ -63,7 +63,6 @@ export default {
       pao: null,
       carne: null,
       opcionais: [],
-      status: "Solicitado",
       msg: null
     }
   },
@@ -76,10 +75,45 @@ export default {
       this.paes = data.paes;
       this.carnes = data.carnes;
       this.opcionaisdata = data.opcionais;
+    },
+    // Cadastra o novo hambúrguer enviando os dados para a API
+    async createBurger(e) {
+      e.preventDefault();
+      
+      // Monta o objeto com os dados digitados
+      const data = {
+        nome: this.nome,
+        carne: this.carne,
+        pao: this.pao,
+        opcionais: Array.from(this.opcionais),
+        status: "Solicitado"
+      }
+
+      // Converte o objeto JavaScript para o formato JSON em texto
+      const dataJson = JSON.stringify(data);
+
+      // Requisição POST para inserir o pedido no banco de dados
+      const req = await fetch("http://localhost:3000/burgers", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: dataJson
+      });
+
+      const res = await req.json();
+
+      // Colocar uma mensagem de sistema
+
+      // Limpar mensagem de sistema
+
+      // Limpa os campos do formulário após o envio bem-sucedido
+      this.nome = "";
+      this.carne = "";
+      this.pao = "";
+      this.opcionais = []; 
     }
   },
   mounted() {
-    // Executa a busca assim que o componente é montado na tela
+    // Executa a busca de ingredientes assim que o componente é carregado
     this.getIngredientes();
   }
 }
