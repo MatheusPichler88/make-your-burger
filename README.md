@@ -1,19 +1,22 @@
-# 3_make_your_burger
+# 🍔 Make Your Burger
 
-## Project setup
-```
-npm install
-```
+Aplicação web desenvolvida para a personalização e montagem de hambúrgueres artesanais.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 📌 Progresso do Projeto
 
-### Compiles and minifies for production
-```
-npm run build
-```
+O projeto está em desenvolvimento. Até o momento, as seguintes etapas foram concluídas:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* **Header e Navegação:** Estrutura base da barra de navegação com logotipo e links.
+* **Componente de Banner:** Área principal com layout responsivo, fundo dinâmico e suporte a gradientes em CSS3.
+* **Formulário de Pedidos (`BurgerForm`):** Estrutura de campos construída com reatividade via `v-model` para captura de:
+  * Nome do cliente
+  * Tipo de pão
+  * Tipo de carne
+  * Múltiplos opcionais (check-boxes)
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Vue.js 3** (Options API)
+* **HTML5**
+* **CSS3** (Flexbox, Design Responsivo, Gradientes)
+
