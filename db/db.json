@@ -145,6 +145,26 @@
       ],
       "status": "Solicitado",
       "id": "XsbFRmd8HG4"
+    },
+    {
+      "nome": "Matheus Dias",
+      "carne": "Smash Duplo",
+      "pao": "Pão de Batata",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": "N06cb2mFmGY"
+    },
+    {
+      "nome": "Gabriel Matheus",
+      "carne": "Hambúrguer Vegano",
+      "pao": "Australiano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": "qBRNbUk9AhQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

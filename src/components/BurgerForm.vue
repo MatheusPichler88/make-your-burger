@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Componente de msg</p>
+    <Message :msg="msg" v-show="msg" />
     <div>
       <!-- Formulário com evento submit vinculado ao método createBurger -->
       <form id="burger-form" @submit="createBurger">
@@ -49,6 +49,8 @@
 </template>
 
 <script>
+import Message from './Message.vue';
+
 export default {
   name: "BurgerForm", 
   data() {
@@ -102,8 +104,9 @@ export default {
       const res = await req.json();
 
       // Colocar uma mensagem de sistema
-
+      this.msg = "Pedido realizado com sucesso!";
       // Limpar mensagem de sistema
+      setTimeout(()=> this.msg = "", 3000);
 
       // Limpa os campos do formulário após o envio bem-sucedido
       this.nome = "";
@@ -115,6 +118,9 @@ export default {
   mounted() {
     // Executa a busca de ingredientes assim que o componente é carregado
     this.getIngredientes();
+  },
+  components: {
+    Message
   }
 }
 </script>
